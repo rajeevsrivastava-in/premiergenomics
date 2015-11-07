@@ -1,0 +1,91 @@
+/* Coded by http://brandidentitydesigned.wordpress.com */
+
+
+#navigation {
+    display: block;
+    width: 373px;
+    hight: 50px;
+    background: url('../../images/nav-dropdown.png') no-repeat;
+    background-color: black;
+    font-family: 'Karla', "Lucida Grande", Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    color: black;
+    float: left;
+    z-index: 6 !important;
+    position: fixed;
+    top: 0%;
+    left: 706px;
+}
+
+#navigation ul {
+    height: 50px;
+    list-style: none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#navigation ul a {
+    height: 50px;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    font-size:15px;
+    line-height:48px;
+    padding:0 15px;
+}
+
+#navigation ul li {
+    height: 50px;
+    position:relative;
+    float:left;
+    background:#000;
+    margin:0;
+    padding:0;
+}
+
+#navigation ul li.current-menu-item {
+    height: 50px;
+    background:#d45fad;
+}
+
+#navigation ul li:hover {
+    background:#d45fad
+}
+
+#navigation ul ul
+{
+    height: 50px;
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#000;
+    padding:0
+}
+
+#navigation ul ul li {
+    height: 50px;
+    float:none;
+    width:300px;
+}
+
+#navigation ul ul a
+{
+    line-height:120%;
+    padding:15px 15px;
+}
+
+#navigation ul ul ul
+{
+    top:0;
+    left:-100%
+}
+
+#navigation ul li:hover > ul
+{
+    display:block
+}

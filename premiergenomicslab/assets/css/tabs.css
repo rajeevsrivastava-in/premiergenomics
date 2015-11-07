@@ -1,0 +1,95 @@
+/* Coded by http://brandidentitydesigned.wordpress.com */
+
+ul.tabs, ul.contents {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul.tabs {
+    margin: 0 auto;
+    display: block;
+    height: 30px;
+    width: 405px;
+    padding-top: 10px;
+    padding-left: 28px;
+}
+
+ul.contents {
+
+    width: 20000em;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: #383534;
+    text-transform: none;
+}
+
+ul.tabs li {
+    font-family: 'Karla', sans-serif;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    cursor: default;
+    padding-left: 10px;
+    font-weight: 400;
+
+}
+
+.footer-divider {
+
+    padding-right: 10px;
+    background: url('../../images/divider.png') no-repeat right;
+
+}
+
+ul.tabs li.active {
+    color: #d45fad;
+}
+
+ul.tabs li:active {
+    color: #d45fad;
+}
+
+ul.contents li {
+    float: left;
+    display: block;
+    width: 1000px;
+    height: 450px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-top: 0px; /*background: blue;*/
+    background: transparent;
+}
+
+.contentsWindow {
+    width: 1000px;
+    height: 450px;
+    clear: left;
+    overflow: hidden;
+    margin: 0 auto;
+    background: transparent;
+    padding-left: 50ps;
+
+}
+
+#close-button {
+
+    display: block;
+    height: 30px;
+    width: 30px;
+    float: left;
+
+}
+
+#close-link {
+
+    display: block;
+    height: 30px;
+    width: 100px;
+    float: left;
+    padding-top: 9px;
+
+}

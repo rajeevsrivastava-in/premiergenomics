@@ -1,0 +1,449 @@
+/* Coded by http://brandidentitydesigned.wordpress.com */
+
+
+html, body {
+
+    margin: 0px;
+    overflow-x: hidden;
+
+}
+
+img {
+    border: 0px;
+}
+
+/* Moosizer Plugin Styles */
+/* ************************************************************************* */
+#supersize {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#supersize img, #supersize a {
+    height: 100%;
+    width: 100%;
+    /*display:none;*/
+}
+
+#supersize .activeslide, #supersize .activeslide img {
+    display: inline;
+}
+
+/* ************************************************************************* */
+
+#logo {
+
+    display: block;
+    position: absolute;
+    width: 345px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 125px;
+    z-index: 3;
+
+}
+
+#halo {
+
+    display: block;
+    width: 1366px;
+    height: 372px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 2;
+    background: url('../../images/halo-background.png') no-repeat;
+    padding-top: 10px;
+
+}
+
+/*Footer Styles */
+/* ****************************************************************************** */
+
+#footer {
+
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: -560px;
+
+    height: 600px;
+    margin: 0 auto;
+    z-index: 4;
+
+}
+
+#footer a:link, #footer a:visited {
+
+    color: #d45fad;
+    text-decoration: none;
+
+}
+
+#footer a:hover {
+
+    text-decoration: underline;
+
+}
+
+#footer-tab {
+
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: url('../../images/footer-tab-bg.png') center no-repeat;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+#close-wrapper {
+
+    color: #fff;
+    font-size: 11px;
+    display: block;
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+
+    position: relative;
+    left: 300px;
+    top: 24px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+#footer-content {
+
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: black;
+    margin: 0 auto;
+
+}
+
+a.tab-link:link, a.tab-link:visited {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+a.tab-link:hover {
+
+    color: #d45fad;
+    text-decoration: none;
+
+}
+
+.tab-link {
+
+    float: left;
+
+}
+
+.divider {
+
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.link-wrapper {
+
+    display: block;
+    height: 30px;
+    width: 415px;
+    margin: 0 auto;
+    text-align: center;
+    /*padding: 10px;
+    margin-left: 58px;*/
+}
+
+
+/* ****************************************************************************** */
+/* Main Content */
+/* ****************************************************************************** */
+
+#content-wrapper {
+
+    display: block;
+    margin: 0 auto;
+    width: 1006px;
+    /*height: 768px;*/
+    z-index: 3;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -500px;
+    overflow: visible;
+
+}
+
+#heading-wrapper {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    z-index: 4 !important;
+}
+
+#doctor {
+
+    display: block;
+    width: 50%;
+    height: auto;
+    float: left;
+    /*background: fuchsia;*/
+    position: fixed;
+    bottom: 0;
+    margin-top: 300px;
+    margin-left: 550px;
+}
+
+#heading-wrapper h1 {
+
+    color: white;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 45px;
+    text-shadow: black 1px 1px 2px;
+    margin-left: 25px;
+
+}
+
+#heading-wrapper b {
+
+    font-weight: 700;
+    font-size: 88px;
+
+}
+
+#doctor-wrapper {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    /*background: green;*/
+    margin-top: 150px;
+}
+
+#caption-wrapper {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    float: left;
+    /*background: blue;*/
+    z-index: 3;
+    position: absolute;
+    background-color: white;
+
+}
+
+#caption {
+
+    display: block;
+    width: 1006px;
+    height: 74px;
+    background-color: white;
+    z-index: 2;
+    font-family: 'Karla', sans-serif;
+    color: #044c7f;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+
+#abouttab {
+    display: block;
+    width: 1006px;
+    height: 74px;
+    padding-left: 301px;
+    padding-right: 301px;
+    margin-top: 96px;
+    z-index: 8;
+    position: absolute;
+}
+
+#abouttab P {
+    font-family: 'Karla', sans-serif;
+    color: #646464;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -53px;
+}
+
+#pharmaco-content {
+
+    display: block;
+    width: 1006px;
+    height: 3300px;
+    background-color: #ffffff;
+    z-index: 2;
+    margin-left: 0px;
+
+}
+
+#left-col-nav {
+
+    display: block;
+    width: 250px;
+    hight: auto;
+    background-color: #044b7f;
+    float: left;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+#left-col-nav a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    height: 35px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#left-col-nav a:hover {
+    color: white;
+    display: block;
+    text-decoration: none;
+    height: 35px;
+    background: #8fc6fa;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#left-col-nav a.current-menu-item {
+    color: white;
+    display: block;
+    text-decoration: none;
+    height: 35px;
+    background: #8fc6fa;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#rt-col-content {
+    width: 756px;
+    height: auto;
+    display: block;
+    float: left;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#rt-col-content p {
+
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+#rt-col-content strong {
+
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+    color: #044b7f;
+}
+
+#rt-col-content li {
+
+    font-size: 15px;
+    margin: 0px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    color: black;
+    color: #044b7f;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.readmore-btn {
+
+    background: url('../../images/readmore-bg.png') no-repeat center !important;
+    display: block;
+    width: 206px !important;
+    height: 62px !important;
+    color: white;
+    margin-left: 397px;
+    margin-right:397px;
+    margin-top: 50px;
+    padding-top: 15px;
+
+}
+
+/* ****************************************************************************** */
+
+#social {
+
+    display: block;
+    height: 85px;
+    width: 50px;
+    background: #f4f4f4;
+    position: fixed;
+    right: 0px;
+    bottom: 10%;
+    margin-top: -77px;
+    z-index: 4;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+    height: 400px;
+    /*background: green;*/
+    margin-top: 10px;
+
+}
+
+#fade {
+    display: none;
+    position: relative;
+    top: -20px;
+
+}
+
+#bread-crumbs {
+
+    display: block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #696969;
+
+}
+
+.B_currentCrumb {
+
+    color: #696969;
+}
